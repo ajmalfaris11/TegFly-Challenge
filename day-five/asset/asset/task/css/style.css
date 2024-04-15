@@ -16,3 +16,33 @@ ol, ul {
 a{
     color: black;
 }
+
+header{}
+
+.wrapper{}
+
+header .wrapper {}
+
+header .wrapper img{}
+
+header .wrapper ul{}
+
+header .wrapper ul li{}
+
+header .wrapper ul li a{}
+
+header .wrapper ul li a:first-child{}
+
+header .wrapper ul li a:last-child{}
+
+
+
+
+
+
+
+
+
+
+
+
