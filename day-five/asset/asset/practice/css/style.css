@@ -17,25 +17,57 @@ a{
     color: black;
 }
 
-.wrapper{}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;	
+}
 
-header{}
+header{
+	border: 1px solid #efefef;
+}
 
-header .wrapper{}
+header .wrapper{
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+	align-items: center;
+
+}
 
 header .wrapper h1{}
 
-header .wrapper h1 img{}
+header .wrapper h1 img{
+	width: 120px;
+}
 
-header .wrapper ul{}
+header .wrapper ul{
+	display: flex;
+	justify-content: end;
 
-header .wrapper ul li{}
+}
 
-header .wrapper ul li a{}
+header .wrapper ul li{
+	margin-right: 32px;
+}
 
-header .wrapper ul li:nth-child(4)a{}
+header .wrapper ul li a{
+	font-size: 18px;
+	font-weight: 400;
 
-header .wrapper ul li:last-child a{}
+}
+
+header .wrapper ul li:nth-child(4) a{
+	background-color:#3D00B7;
+	color: white;
+	padding: 12px 24px;
+	border-radius: 24px;
+}
+
+header .wrapper ul li:last-child a{
+	border: 1px solid #3D00B7;
+	padding: 12px 24px;
+	border-radius: 24px;
+}
 
 
 
