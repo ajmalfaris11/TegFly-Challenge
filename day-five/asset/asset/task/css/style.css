@@ -17,23 +17,77 @@ a{
     color: black;
 }
 
-header{}
+body{
+	font-family: "Quicksand", sans-serif;
+}
+header{
+	padding-top: 50px;
+}
 
-.wrapper{}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;	
+}
 
-header .wrapper {}
+header .wrapper{
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+header .wrapper h1 img{
+	width: 120px;
+}
 
-header .wrapper img{}
+header .wrapper ul{
+	display: flex;
+	justify-content: end;
+}
 
-header .wrapper ul{}
+header .wrapper ul li{
+	margin-right: 32px;
+}
 
-header .wrapper ul li{}
+header .wrapper ul li a{
+	font-size: 18px;
+	font-weight: 400;
 
-header .wrapper ul li a{}
+}
 
-header .wrapper ul li a:first-child{}
+header .wrapper ul li:first-child a{
+	font-weight: 600;
 
-header .wrapper ul li a:last-child{}
+}
+
+header .wrapper ul li a:hover{
+	text-decoration: underline 3px #FBE0DC;
+
+}
+
+.rounded-text-decoration {
+    position: relative;
+    text-decoration: none;
+    color: black;
+	z-index: 1;
+  }
+  .rounded-text-decoration::after {
+	z-index: -1;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px; 
+    width: 100%;
+    height: 0.2em;
+    background-color: #FBE0DC;
+    border-radius: 0.1em; 
+  }
+ 
+
+header .wrapper ul li:last-child a{
+	font-weight: 600;
+	padding: 10px 20px;
+	background-color: #FBE0DC;
+	border-radius: 25px 25px 10px 10px ;
+}
 
 
 
