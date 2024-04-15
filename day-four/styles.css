@@ -1,0 +1,44 @@
+.first-div{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    border: 5px solid black;
+    outline: 5px solid red;
+    border-radius: 24px;
+    position: relative;
+    top: 50px;
+}
+
+li{
+    font-size: 24px;
+    color: blue;
+    font-weight:700 ;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: green;
+}
+
+li:nth-child(2){
+    color: black;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+}
+
+.sec-div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} 
