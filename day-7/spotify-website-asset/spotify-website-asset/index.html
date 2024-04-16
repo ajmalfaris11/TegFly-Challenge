@@ -6,13 +6,17 @@
     <title>Spotify Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="bg-black text-white">
-        <section class="wrapper h-[90px] flex justify-between items-center">
+        <section class="wrapper h-[80px] flex justify-between items-center">
             <h1>
-                <img src="images/logo.png" alt="logo" class="w-[120px]">
+                <img src="images/logo.png" alt="logo" class="w-[120px]" />
             </h1>
             <ul class="flex justify-end items-center">
                  <li class="mr-10"><a href="#">Premium</a></li>
@@ -23,6 +27,103 @@
         </section>
     </header>
 
- 
+    <section class="bg-green-600 h-[calc(100vh-80px)]">
+        <section class="wrapper flex justify-between items-center h-full">
+            <div class="left">
+                <h1 class="text-[60px] font-bold mb-10 text-white leading-tight">Millions of songs <br> and podcasts, in <br> your pocket.</h1>
+                <a href="#" class="py-2 px-7 bg-white rounded-full text-black font-semibold">Download Free</a>
+            </div>
+            <div class="right h-full flex justify-end items-end">
+                <img src="images/home-right.png" alt="image"  class="h-[90%]"/>
+            </div>
+        </section>
+    </section>
+
+    <section class="py-20">
+        <section class="wrapper">
+            <h1 class="text-[56px] text-center font-bold mb-20">Why Spotify</h1>
+            <div class="flex justify-center items-center">
+
+                <div class="text-center w-[28%] mr-10">
+                    <div class="flex justify-center mb-5">
+                        <img src="images/love.png" alt="img" class="w-[120px]">
+                    </div>
+                    <h1 class="text-[20px] font-semibold mb-3">Make it yours</h1>
+                    <p class="text-[14px] font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorum ilum velit a minus doloribus.</p>
+                </div>
+
+                <div class="text-center w-[28%] mr-10">
+                    <div class="flex justify-center mb-5">
+                        <img src="images/playlist.png" alt="img" class="w-[120px]">
+                    </div>
+                    <h1 class="text-[20px] font-semibold mb-3">Playlist made easy.</h1>
+                    <p class="text-[14px] font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorum ilum velit a minus doloribus.</p>
+                </div>
+
+                <div class="text-center w-[28%] mr-10">
+                    <div class="flex justify-center mb-5">
+                        <img src="images/play.png" alt="img" class="w-[120px]">
+                    </div>
+                    <h1 class="text-[20px] font-semibold mb-3">Play for you favorite.</h1>
+                    <p class="text-[14px] font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorum ilum velit a minus doloribus.</p>
+                </div>            
+            </div>
+            
+        </section>
+    </section>
+
+    <section class="py-16 bg-green-600">
+        <section class="wrapper">
+            <h1 class="text-center text-[56px] font-bold">Forever Free.</h1>
+            <h3 class="text-center text-[40px]">No creadit card needed</h3>
+        </section>
+    </section>
+
+    <section class="py-20">
+        <section class="wrapper">
+            <h1 class="text-[50px] text-center mb-20 font-bold">Got questions?</h1>
+            <div class="w-[35%] flex justify-between items-center pb-3 mb-3 border-b m-auto">
+                <h3 class="text-[18px] font-semibold">How do i create a playlist? </h3>
+                <img src="images/down-arrow.png" alt="" class="w-[22px]">
+            </div>
+
+            <div class="w-[35%] flex justify-between items-center pb-3 mb-3 border-b m-auto">
+                <h3 class="text-[18px] font-semibold">How do i active data saver mode?</h3>
+                <img src="images/down-arrow.png" alt="" class="w-[22px]">
+            </div>
+
+            <div class="w-[35%] flex justify-between items-center pb-3 mb-3 border-b m-auto">
+                <h3 class="text-[18px] font-semibold">How to make a playlist? </h3>
+                <img src="images/down-arrow.png" alt="" class="w-[22px]">
+            </div>
+
+            <div class="w-[35%] flex justify-between items-center pb-3 mb-3 border-b m-auto">
+                <h3 class="text-[18px] font-semibold">Where can i find podcasts? </h3>
+                <img src="images/down-arrow.png" alt="" class="w-[22px]">
+            </div>
+        </section>
+    </section>
+
+    <section class="py-16 bg-green-600">
+        <section class="wrapper text-center">
+            <h1 class="text-center text-[56px] font-bold mb-6">Ready, Let's play !</h1>
+            <a href="#" class="py-2 px-7 bg-white rounded-full text-black font-semibold ">DOWNLOAD SPOTIFY FREE</a>
+
+        </section>
+    </section>
+
+    <footer class="bg-black text-white">
+        <section class="wrapper h-[80px] flex justify-between items-center">
+            <ul class="flex justify-end items-center">
+                 <li class="mr-10"><a href="#">Home</a></li>
+                 <li class="mr-10"><a href="#">About</a></li>
+                 <li class="mr-10"><a href="#">Blog</a></li>
+                 <li class="mr-10"><a href="#">Contact</a></li>
+            </ul>
+
+            <p class="text-[12px]">© 2021 spotify, all rights reserved</p>
+        </section>
+    </footer>
+    
 </body>
 </html>
