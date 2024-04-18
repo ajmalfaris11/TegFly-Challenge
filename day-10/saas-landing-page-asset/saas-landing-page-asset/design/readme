@@ -9,23 +9,3 @@ gray color - #536E96
 
 button bg - #0252C5
 
-
-
-
-
-
-
-
-  
-
-    <section class="flex py-10 px-10 items-center justify-between bg-[#FBFCFC]">
-        <div class="w-[55%]">
-            <img src="images/dashboard.png" alt="img" class="w-full p-20">
-        </div>
-        <div class="w-[45%] pr-20">
-            <h3 class=" text-[20px] text-[#0252C5] font-extrabold mb-10">MAXIMISE PRODUCTIVITY</h3>
-            <h1 class="text-[40px] font-black leading-tight my-10">Get Work Done, Simpler & Faster</h1>
-            <p class="text-[16px] font-normal mb-10">With project management that adapts to the demands of your team, you can schedule, monitor, and oversee any king of work.</p>
-            <a href="#" class="text-[14px] font-semibold py-4 px-10 bg-[#0252C5] rounded-xl text-white border-2  border-[#0252C5]">Get Started</a>
-        </div>
-    </section>
