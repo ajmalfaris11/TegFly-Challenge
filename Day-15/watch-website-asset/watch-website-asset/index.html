@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saas Lnding Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="bg-black text-white">
+        <section class="wrapper">
+            <header class="h-[100px] flex justify-between items-center">
+                <h1>
+                    <img src="images/logo.png" alt="log" class="w-[100px]">
+                </h1>
+                <ul class="hidden justify-center items-center md:flex">
+                    <li class="mr-7"><a href="#" class="text-[14px] font-normal text-[#8B8E99]">Home</a></li>
+                    <li class="mr-7"><a href="#" class="text-[14px] font-normal text-[#8B8E99]">Brands</a></li>
+                    <li class="mr-7"><a href="#" class="text-[14px] font-normal text-[#8B8E99]">Recent Products</a></li>
+                    <li class="mr-7"><a href="#" class="text-[14px] font-normal text-[#8B8E99]">Contact</a></li>
+                    <li class=""><a href="#" class="text-[14px] font-normal text-[#8B8E99]">About</a></li>
+                </ul>
+               
+                <ul class="flex justify-end items-center">
+                    <li class="mr-3"><a href="#"><img src="images/search.png" alt="icon" class="w-[24px]"></a></li>
+                    <li class="mr-3"><a href="#"><img src="images/user.png" alt="icon" class="w-[24px]"></a></li>
+                    <li class="mr-3"><a href="#"><img src="images/cart.png" alt="icon" class="w-[24px]"></a></li>
+                </ul>
+            </header>
+            <section class="py-4 flex flex-col  justify-between items-center sm:flex-row ">
+                <div class="w-[100%] sm:w-[45%] text-center sm:text-start ">
+                    <h1 class="text-[38px] sm:text-[38px] md:text-[42px] lg:text-[56px] xl:text-[76px]  leading-tight md:leading-normal font-bold sm:font-extrabold mb-2">Discover <br> Most Suitable <br> Watches</h1>
+                    <p class=" text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] font-normal text-[#8B8E99] mb-10">Find the best.reliable, and cheap smart watches here. we focus on product quality. Here you can find smart watches of almost all brands. sSo why you are waiting? Just order now!</p>
+                    <form action="">
+                        <div class="py-1 px-1 md:py-2 md:px-2 bg-white rounded-xl flex justify-between text-[14px]" >
+                            <input type="text" placeholder="Find the best Brands" class="outline-none text-center ">
+                            <button type="submit" class="py-2 px-2 md:px-4  bg-[#3858D6] rounded-xl">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="w-[100%] sm:w-[45%] flex mt-10  justify-center sm:justify-end m-auto">
+                    <img src="images/home-right.png" alt="image" class="w-[60%] sm:w-[80%]">
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <section class="py-10">
+        <section class="wrapper grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="flex p-5 py-8 rounded-3xl bg-[#F6F6F6] mb-5 sm:mr-5 col-span-1 lg:col-span-1">
+                <div class="flex justify-between">
+                    <div class="w-[30%]">
+                        <img src="images/apple.png" alt="watch" class="w-full">
+                    </div>
+                    <div class="w-[60%] flex flex-col justify-center  text-start">
+                        <h1 class="text-[24px] font-bold mb-1">Apple</h1>
+                        <p class="text-[12px] text-[#8B8E99] font-medium">Apple is one of the most famous smart watches providing company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex p-5 py-8 rounded-3xl bg-[#F6F6F6] mb-5  lg:mr-5 col-span-1">
+                <div class="flex justify-between">
+                    <div class="w-[30%]">
+                        <img src="images/xiaomi.png" alt="watch" class="w-full">
+                    </div>
+                    <div class="w-[60%] flex flex-col justify-center  text-start">
+                        <h1 class="text-[24px] font-bold mb-1">Xiaomi</h1>
+                        <p class="text-[12px] text-[#8B8E99] font-medium">Xiaomi smart watches are produced by MI company.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex p-5 py-8 rounded-3xl bg-[#F6F6F6] mb-5 col-span-1 sm:col-span-2 lg:col-span-1 lg:mr-5 sm:w-[60%] lg:w-full m-auto">
+                <div class="flex justify-between">
+                    <div class="w-[30%]">
+                        <img src="images/fitbit.png" alt="watch" class="w-full">
+                    </div>
+                    <div class="w-[60%] flex flex-col justify-center  text-start">
+                        <h1 class="text-[24px] font-bold mb-1">FitBit</h1>
+                        <p class="text-[12px] text-[#8B8E99] font-medium ">FitBit smart watches are best for there health and fitness features.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>
