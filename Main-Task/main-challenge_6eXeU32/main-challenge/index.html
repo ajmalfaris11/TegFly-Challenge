@@ -4,15 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIN | Furniture Store</title>
+    <link rel="icon" href="images/logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
-    
+    <section class="bg-[#35736E]">
+        <header class="px-[5%] md:px-[2%] flex justify-between h-[80px] items-center">
+            <div>
+                <img src="images/logo.png" alt="FIN logo" class="w-[50px]">
+            </div>
+            <div class=" text-white flex justify-between items-center">
+                <ul class="hidden sm:flex gap-4 md:gap-5 mr-10 md:mr-20">
+                    <li><a href="#" class="border-b-4 border-[#FFD748] font-light">Home</a></li>
+                    <li><a href="#" class="hover:border-b-4 border-[#FFD748] font-light">About us</a></li>
+                    <li><a href="#" class="hover:border-b-4 border-[#FFD748] font-light">Services</a></li>
+                    <li><a href="#" class="hover:border-b-4 border-[#FFD748] font-light">Blog</a></li>
+                    <li><a href="#" class="hover:border-b-4 border-[#FFD748] font-light">Contact us</a></li>
+                </ul>
+                <div class="flex justify-between gap-3 items-center">
+                    <img src="images/user.png" alt="img" class="w-[30px]">
+                    <img src="images/cart.png" alt="img" class="w-[30px]">
+                    <span class="material-symbols-outlined sm:hidden block">
+                        more_vert
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <section class="py-10">
+            <section class="wrapper flex flex-col md:flex-row justify-center items-center">
+                <div class="flex flex-col justify-center md:justify-start md:w-[45%]">
+                    <h1 class="text-white md:text-start text-[24px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[52px] text-center font-bold ">"Transform your space <br> with elegance."</h1>
+                    <div class="pt-10 hidden md:flex md:justify-start gap-5">
+                        <a href="#" class="py-2 px-5 rounded-full  bg-[#FFD748]">Shope Now</a>
+                        <a href="#" class="py-2 px-8 rounded-full border border-white hover:text-[#FFD748] hover:border-[#FFD748]">Explore</a>    
+                    </div>
+                </div>
+                <div class="py-5 md:w-[55%]">
+                    <img src="images/home-right.png" alt="">
+                </div>
+                <div class="pt-10 flex justify-center gap-5 md:hidden">
+                    <a href="#" class="py-2 px-5 rounded-full  bg-[#FFD748]">Shope Now</a>
+                    <a href="#" class="py-2 px-8 rounded-full border border-white hover:text-[#FFD748]">Explore</a>    
+                </div>
+            </section>
+        </section>
+    </section>
+
 
     
 </body>
