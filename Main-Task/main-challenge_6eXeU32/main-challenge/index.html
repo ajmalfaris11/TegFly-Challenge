@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
+<body class="scroll-smooth">
 
     <section class="bg-[#35736E]">
         <header class="px-[5%] md:px-[2%] flex justify-between h-[80px] items-center">
@@ -43,7 +43,7 @@
                     <h1 class="text-white md:text-start text-[24px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[52px] text-center font-bold ">"Transform your space <br> with elegance."</h1>
                     <div class="pt-10 hidden md:flex md:justify-start gap-5">
                         <a href="#" class="py-2 px-5 rounded-full  bg-[#FFD748] hover:bg-[#ffff4f]">Shop Now</a>
-                        <a href="#" class="py-2 px-8 rounded-full border border-white hover:text-[#FFD748] hover:border-[#FFD748]">Explore</a>    
+                        <a href="#products" class="py-2 px-8 rounded-full border border-white hover:text-[#FFD748] hover:border-[#FFD748]">Explore</a>    
                     </div>
                 </div>
                 <div class="py-5 md:w-[55%]">
@@ -85,7 +85,58 @@
         </section>
     </section>
 
-    
-    
+    <section class="mb-20" id="products">
+        <section class="wrapper md:flex justify-between">
+            <div class="lg:w-[40%]">
+                <div class="sm:grid sm:grid-cols-2 lg:grid-cols-1 justify-center items-center">
+                    <div class="text-center sm:text-start py-10">
+                        <h1 class="text-[24px] font-bold md:mb-3">Why Choose Us</h1>
+                        <p class="text-[14px] text-[#6A6A6A]">Discover the difference at FIN. We stand out with curated collections, personalized service, and a commitment to quality. Let us help you create a home that reflects your style and exceeds your expectations</p>
+                    </div> 
+                    <div class="flex justify-center">
+                        <img src="images/why-choose-us.png" alt="img" class="lg:hidden sm:w-[80%]">
+                    </div> 
+                </div>
+                <div class=" py-10 lg:py-0 grid grid-cols-1 min-[375px]:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10">
+                        
+                    <div class="flex flex-col justify-center items-center text-center sm:text-start md:items-start mb-10 md:mb-0">
+                        <div class="w-10 h-10 md:w-7 md:h-7 rounded-full bg-[#CBD9D9] ml-5 relative">
+                        <img src="images/Truck.png" alt="img" class="absolute -left-3 w-8 md:w-8 md:-left-3">
+                        </div>
+                        <h2 class="text-[16px] text-[#2F2F2F] font-semibold mt-2 lg:mt-1">Fast & Free Shipping</h2>
+                        <p class="text-[12px] text-[#6A6A6A] mt-3">Swift delivery guaranteed! Enjoy expedited shipping at no extra cost. Get your furniture fast, hassle-free, and right on time.</p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center text-center sm:text-start md:items-start mb-10 md:mb-0">
+                        <div class="w-10 h-10 md:w-7 md:h-7 rounded-full bg-[#CBD9D9] ml-5 relative">
+                            <img src="images/Shop-bag.png" alt="img" class="absolute -left-3 w-7">
+                        </div>
+                        <h2 class="items-start text-[16px] text-[#2F2F2F] font-semibold mt-2 lg:mt-1">Easy to Shop</h2>
+                        <p class="text-[12px] text-[#6A6A6A] mt-3">Effortlessly shop for furniture with our user-friendly interface, intuitive search, and seamless checkout. Simplify your shopping experience today.</p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center text-center sm:text-start md:items-start mb-10 md:mb-0">
+                        <div class="w-10 h-10 md:w-7 md:h-7 rounded-full bg-[#CBD9D9] ml-5 relative">
+                            <img src="images/Support.png" alt="img" class="absolute -left-3 w-8">
+                        </div>
+                        <h2 class="text-start text-[16px] text-[#2F2F2F] font-semibold mt-2 lg:mt-1">24/7 Support</h2>
+                        <p class="text-[12px] text-[#6A6A6A] mt-3">Round-the-clock assistance at your service! Get reliable support anytime, anywhere. Your satisfaction is our priority, day or night.</p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center text-center sm:text-start md:items-start mb-10 md:mb-0">
+                        <div class="w-10 h-10 md:w-7 md:h-7 rounded-full bg-[#CBD9D9] ml-5 relative">
+                            <img src="images/Return.png" alt="img" class="absolute -left-3 w-7">
+                        </div>
+                        <h2 class="text-[16px] text-[#2F2F2F] font-semibold mt-2 lg:mt-1">Hassle Free Returns</h2>
+                        <p class="text-[12px] text-[#6A6A6A] mt-3">Seamless returns made easy! Enjoy stress-free returns with our simple process. Your satisfaction is guaranteed, no questions asked</p>
+                    </div>
+                </div>
+            </div>
+        <div class="hidden lg:flex w-[55%] justify-center items-center ">
+            <img src="images/why-choose-us.png" alt="img" class="w-[75%] m-auto shadow-md bg-cover bg-center">
+        </div>
+    </section>
+</section>
+
 </body>
 </html>
